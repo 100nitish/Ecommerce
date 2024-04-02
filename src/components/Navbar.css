@@ -1,0 +1,45 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: cadetblue;
+    align-items: center;
+}
+.brand{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    width: 20%;
+    text-decoration: none;
+}
+.search-bar{
+    width: 60%;
+    margin-left: 250px;
+
+}
+.search-bar .sear{
+    width: 50%;
+    border-radius: 5px;
+    
+    
+}
+.sear::placeholder{
+    font-size: 15px;
+    text-align: center;
+}
+.cart{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+    background-color:deepskyblue;
+    font-weight: bold;
+}
